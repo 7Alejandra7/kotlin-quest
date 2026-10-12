@@ -30,12 +30,7 @@ fun main() {
 
     val monster = Monster(
         name = "Goblin",
-<<<<<<< HEAD
         maxHealth = 80
-=======
-        maxHealth = 80,
-        baseAttack = 18
->>>>>>> 99a271b4f39c6015492327496ea529f13c6e7f15
     )
 
     title("👹 ¡APARECIÓ UN GOBLIN!")
