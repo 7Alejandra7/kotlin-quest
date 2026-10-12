@@ -2,7 +2,6 @@
 class Mage(name: String) : Character(
     name = name,
     maxHealth = 90,
-    baseAttack = 6
 ) {
     var mana: Int = 40
         private set

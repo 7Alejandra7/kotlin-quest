@@ -2,11 +2,9 @@
 class Monster(
     name: String,
     maxHealth: Int,
-    baseAttack: Int
 ) : Character(
     name = name,
     maxHealth = maxHealth,
-    baseAttack = baseAttack
 ) {
     private var hasHealed = false
 

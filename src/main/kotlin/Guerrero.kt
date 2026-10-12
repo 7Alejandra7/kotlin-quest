@@ -2,7 +2,6 @@
 class Warrior(name: String) : Character(
     name = name,
     maxHealth = 100,
-    baseAttack = 8
 ) {
     var energy: Int = 3
         private set

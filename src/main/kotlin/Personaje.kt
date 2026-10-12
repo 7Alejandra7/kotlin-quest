@@ -2,7 +2,6 @@
 open class Character(
     val name: String,
     val maxHealth: Int,
-    val baseAttack: Int
 ) : Damageable, Healable {
 
     var currentHealth: Int = maxHealth
@@ -75,9 +74,4 @@ open class Character(
         )
         println("❤️".repeat(filledHearts) + "🖤".repeat(emptyHearts))
     }
-    fun showStatus() {
-        println("${Colors.CYAN}${Colors.BOLD}$name${Colors.RESET}")
-        showHealth()
-    }
-
 }
