@@ -26,10 +26,10 @@ class Monster(
             }
         }
 
-        var damage = randomBetween(7, 16)
+        var damage = randomBetween(18, 25)
 
-        if (damage == 16) {
-            damage = 20
+        if (damage == 25) {
+            damage = 40
             danger("\n💢 ¡Golpe crítico del Goblin!")
         }
 
